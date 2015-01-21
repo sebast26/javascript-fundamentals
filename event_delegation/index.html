@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .normal {
+            color: black;
+            background-color: gray;
+        }
+
+        .changed {
+            color: white;
+            background-color: black;
+        }
+
+        .changed-2 {
+            color: yellow;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body class="normal">
+
+<h1>This is some text.</h1>
+<p>Bla bla ble</p>
+
+<a data-body-class="normal" href="#">Change to Normal</a>
+<a data-body-class="changed" href="#">Change to Changed</a>
+<button data-body-class="changed-2">Change to Changed-2</button>
+
+<a href="http://google.pl">Go to Google</a>
+
+<script src="eventsUtility.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
